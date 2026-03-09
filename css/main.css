@@ -36,7 +36,7 @@ p {
   margin-bottom: 3rem;
 }
 
-.grid-container .info .countdown-clock {
+.grid-container .info #countdown-clock {
   display: flex;
   justify-content: flex-start;
   margin-bottom: 3rem;
