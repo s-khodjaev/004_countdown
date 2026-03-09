@@ -3,7 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.css" />
     <title>Coming Soon - Under Construction</title>
   </head>
-  <body></body>
+  <body>
+    <div class="grid-container">
+      <div class="info">
+        <img src="img/logo.png" alt="" class="logo" />
+        <h1>We are launching soon!</h1>
+        <div class="countdown-clock">
+          <div class="time">
+            <span class="days">27</span>
+            <small>Days</small>
+          </div>
+          <div class="time">
+            <span class="hours">23</span>
+            <small>Hours</small>
+          </div>
+          <div class="time">
+            <span class="minutes">36</span>
+            <small>Minutes</small>
+          </div>
+          <div class="time">
+            <span class="seconds">59</span>
+            <small>Seconds</small>
+          </div>
+        </div>
+        <form id="form">
+          <p>Get notified when we launch!</p>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email address"
+          />
+          <button type="button" class="btn">
+            <i class="fas fa-envelope"></i>
+            <span>Notify Me</span>
+          </button>
+        </form>
+        <div class="social">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-github"></i>
+          <i class="fab fa-google-plus-g"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-twitter"></i>
+        </div>
+        <footer>
+          <p>Copyright &copy; TemplateJungle 2022.</p>
+        </footer>
+      </div>
+      <div class="image">
+        <img src="img/sideimg.jpg" alt="" />
+      </div>
+    </div>
+  </body>
 </html>
