@@ -109,3 +109,11 @@ footer p {
   top: 0;
   right: -300px;
 }
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .image img {
+    display: none;
+  }
+}
